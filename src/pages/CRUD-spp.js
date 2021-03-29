@@ -263,7 +263,7 @@ export default function Crud() {
                     {/* Fixed footer start */}
                     <Grid container justify="flex-end" className={classes.footerContainer}>
                         <Fab variant="extended" color="primary" aria-label="add" className={classes.footerButton} onClick={() => addTriger()}>
-                            <AddCircleIcon /> Tambah Data Siswa
+                            <AddCircleIcon /> Tambah Data SPP
                         </Fab>
                     </Grid>
                     {/* Fixed footer end */}

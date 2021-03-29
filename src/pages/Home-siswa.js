@@ -36,7 +36,7 @@ export default function HomeSiswa() {
                                     SMK Neo Culture Technology
                                 </Typography>
                                 <Typography variant="h3" align="center">
-                                    Selamat Datang User!
+                                    Selamat Datang {values.name}
                                 </Typography>
                             </Grid>
                         </Grid>

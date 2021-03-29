@@ -1,6 +1,6 @@
 import './App.css';
 
-import {Switch, Route, Redirect, Link} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 
 // File Page
 import HomeSiswa from './pages/Home-siswa';
@@ -14,12 +14,10 @@ import CRUDKelas from './pages/CRUD-kelas';
 import CRUDSpp from './pages/CRUD-spp';
 import Login from './pages/Login';
 import Entri from './pages/Entri';
-// import TabBar from './pages/TabBar'
 
 function App() {
   return (
     <>
-      {/* <TabBar/> */}
       <Switch>
         <Route exact path="/" component={Login}/>
         <Route exact path="/admin/entri" component={Entri}/>

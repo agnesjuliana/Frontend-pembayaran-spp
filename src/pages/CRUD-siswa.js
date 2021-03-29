@@ -290,7 +290,6 @@ export default function Crud() {
                                                 <Typography variant="h5"><b>{item.nama}</b></Typography>
                                                 <Typography variant="h6"><b>NISN/NIS: </b>{item.nisn}/{item.nis}</Typography>
                                                 <Typography variant="h6"><b>Kelas: </b>{item.kelas.nama_kelas}</Typography>
-                                                <Typography variant="h6"><b>Status: </b>Masih dicoba</Typography>
                                             </Grid>
                                         </Grid>
                                         <Grid container lg={5} xs={12} justify="center" alignItems="center">
@@ -481,7 +480,7 @@ export default function Crud() {
                     <Fade in={modalAdd}>
                         <div className={classes.paperSiswa}>
                             <Grid container justify="center" alignItems="center">
-                                <Typography variant="h4">FORM TAMBAH ADMIN</Typography>
+                                <Typography variant="h4">FORM TAMBAH SISWA</Typography>
 
                                 {/* body card start */}
                                 <Grid container justify="center" className={classes.formContainer}>

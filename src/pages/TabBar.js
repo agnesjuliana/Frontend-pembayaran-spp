@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch, Route, Redirect, Link } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import { AppBar, Tab, Tabs } from '@material-ui/core';
 
 export default class TabBar extends React.Component {
